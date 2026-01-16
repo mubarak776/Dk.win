@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+.app-container {
+    max-width: 480px;
+    margin: 0 auto;
+    background: #fff;
+    min-height: 100vh;
+    padding-bottom: 70px;
+}
+
+.profile-header {
+    background: #fbc531;
+    padding: 30px 20px;
+    border-radius: 0 0 30px 30px;
+}
+
+.user-info { display: flex; align-items: center; }
+.avatar { border-radius: 50%; border: 3px solid #fff; margin-right: 15px; }
+.vip-tag { background: #fff; color: #fbc531; padding: 2px 8px; border-radius: 10px; font-size: 12px; margin-left: 5px; }
+
+.balance-card {
+    background: #fff;
+    margin: -30px 20px 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.action-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.action-item i { font-size: 24px; display: block; margin-bottom: 5px; }
+.action-item span { font-size: 12px; }
+
+.info-section { padding: 0 20px; }
+.info-card {
+    display: flex;
+    background: #fff9e6;
+    border: 1px solid #ffeaa7;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.icon-gold { font-size: 30px; color: #fbc531; margin-right: 15px; }
+
+.menu-list { padding: 20px; }
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #f1f2f6;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 480px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+}
+
+.nav-item { text-align: center; color: #7f8c8d; }
+.nav-item.active { color: #fbc531; }
+.nav-item i { display: block; font-size: 20px; }
+          
